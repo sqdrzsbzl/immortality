@@ -1,0 +1,201 @@
+[INFO ] 2019-12-04 00:00:47 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 9676 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-04 00:00:47 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-04 00:00:47 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-04 00:00:47 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-04 00:00:47 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 2019-12-04 00:00:47 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-04 00:00:47 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-04 00:00:47 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:00:47 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-04 00:00:47 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-04 00:00:47 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-04 00:00:47 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1877 ms
+[INFO ] 2019-12-04 00:00:47 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-04 00:00:47 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-04 00:00:47 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-04 00:00:47 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-12-04 00:00:47 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-12-04 00:00:47 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2019-12-04 00:02:12 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 8516 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-04 00:02:12 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-04 00:02:12 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-04 00:02:12 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-04 00:02:12 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+[INFO ] 2019-12-04 00:02:12 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-04 00:02:12 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-04 00:02:12 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:02:12 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-04 00:02:12 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-04 00:02:12 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-04 00:02:12 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1635 ms
+[INFO ] 2019-12-04 00:02:12 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-04 00:02:12 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-04 00:02:12 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-04 00:02:12 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-12-04 00:02:12 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-12-04 00:02:12 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2019-12-04 00:04:19 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 1548 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-04 00:04:19 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-04 00:04:19 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-04 00:04:19 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-04 00:04:19 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 2019-12-04 00:04:19 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-04 00:04:19 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-04 00:04:19 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:04:19 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-04 00:04:19 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-04 00:04:19 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-04 00:04:19 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2088 ms
+[INFO ] 2019-12-04 00:04:19 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-04 00:04:19 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-04 00:04:19 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:04:19 [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c10796c8-d19a-441b-8868-04c452e5cd49
+
+[INFO ] 2019-12-04 00:04:19 [main] o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66863941, org.springframework.security.web.context.SecurityContextPersistenceFilter@e5c5e6, org.springframework.security.web.header.HeaderWriterFilter@7ecb9e17, org.springframework.security.web.csrf.CsrfFilter@261a66b8, org.springframework.security.web.authentication.logout.LogoutFilter@77ea960f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a54c92e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29699283, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39f4a7c4, org.springframework.security.web.session.SessionManagementFilter@343d1d25, org.springframework.security.web.access.ExceptionTranslationFilter@436a563f]
+[INFO ] 2019-12-04 00:04:19 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:04:19 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 2019-12-04 00:04:19 [main] cn.net.immortal.user.Application - Started Application in 8.788 seconds (JVM running for 11.231)
+[INFO ] 2019-12-04 00:04:19 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:04:19 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:04:19 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[INFO ] 2019-12-04 00:04:19 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:04:19 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-04 00:04:19 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-12-04 00:07:54 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 13284 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-04 00:07:54 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-04 00:07:54 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-04 00:07:54 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-04 00:07:54 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+[INFO ] 2019-12-04 00:07:54 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-04 00:07:54 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-04 00:07:54 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:07:54 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-04 00:07:54 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-04 00:07:54 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-04 00:07:54 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2007 ms
+[INFO ] 2019-12-04 00:07:54 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-04 00:07:54 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-04 00:07:54 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:07:54 [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 907bdde2-aed5-4251-bd9b-aaf0f0a0d417
+
+[INFO ] 2019-12-04 00:07:54 [main] o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3dded90a, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fa2a006, org.springframework.security.web.header.HeaderWriterFilter@5599dc60, org.springframework.security.web.csrf.CsrfFilter@5d297d4d, org.springframework.security.web.authentication.logout.LogoutFilter@1dfcf85a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@36d7a68a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@55881f40, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7be3abaa, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@12266084, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fdf7da2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bbf744b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29f8134, org.springframework.security.web.session.SessionManagementFilter@70f5f59d, org.springframework.security.web.access.ExceptionTranslationFilter@7be7c052, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a583720]
+[INFO ] 2019-12-04 00:07:54 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:07:54 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 2019-12-04 00:07:54 [main] cn.net.immortal.user.Application - Started Application in 8.806 seconds (JVM running for 10.745)
+[INFO ] 2019-12-04 00:07:54 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:07:54 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-04 00:07:54 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-12-04 00:08:36 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 15980 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-04 00:08:36 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-04 00:08:36 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-04 00:08:36 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-04 00:08:36 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+[INFO ] 2019-12-04 00:08:36 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-04 00:08:36 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-04 00:08:36 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:08:36 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-04 00:08:36 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-04 00:08:36 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-04 00:08:36 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1626 ms
+[INFO ] 2019-12-04 00:08:36 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-04 00:08:36 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-04 00:08:36 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:08:36 [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 717c11b3-ed58-4a3f-bd6b-6c87e73fe8da
+
+[INFO ] 2019-12-04 00:08:36 [main] o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d556461, org.springframework.security.web.context.SecurityContextPersistenceFilter@43fe2008, org.springframework.security.web.header.HeaderWriterFilter@1dd44289, org.springframework.security.web.csrf.CsrfFilter@340b4f07, org.springframework.security.web.authentication.logout.LogoutFilter@6dd38df2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@478089b6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@35554635, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5a583720, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7a30e30b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@552bee2f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5599dc60, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ed19b69, org.springframework.security.web.session.SessionManagementFilter@6cc56b32, org.springframework.security.web.access.ExceptionTranslationFilter@5d297d4d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e89eba7]
+[INFO ] 2019-12-04 00:08:36 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:08:36 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 2019-12-04 00:08:36 [main] cn.net.immortal.user.Application - Started Application in 8.744 seconds (JVM running for 10.43)
+[INFO ] 2019-12-04 00:08:36 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:08:36 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:08:36 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+[INFO ] 2019-12-04 00:08:36 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:08:36 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-04 00:08:36 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-12-04 00:10:41 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 6424 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-04 00:10:41 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-04 00:10:41 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-04 00:10:41 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-04 00:10:41 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 2019-12-04 00:10:41 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-04 00:10:41 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-04 00:10:41 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:10:41 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-04 00:10:41 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-04 00:10:41 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-04 00:10:41 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1547 ms
+[INFO ] 2019-12-04 00:10:41 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-04 00:10:41 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-04 00:10:41 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:10:41 [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0f328033-66ae-41e0-962f-d51012ea0cd6
+
+[INFO ] 2019-12-04 00:10:41 [main] o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2248d140, org.springframework.security.web.context.SecurityContextPersistenceFilter@68c4db77, org.springframework.security.web.header.HeaderWriterFilter@4470106b, org.springframework.security.web.csrf.CsrfFilter@6f52a229, org.springframework.security.web.authentication.logout.LogoutFilter@6f65aa58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@23a78c77, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@45eacb70, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@37b238da, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@68454ed5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b2e931, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77020328, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c792107, org.springframework.security.web.session.SessionManagementFilter@681311a7, org.springframework.security.web.access.ExceptionTranslationFilter@185339ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4882b9a]
+[INFO ] 2019-12-04 00:10:41 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:10:41 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 2019-12-04 00:10:41 [main] cn.net.immortal.user.Application - Started Application in 8.197 seconds (JVM running for 9.675)
+[INFO ] 2019-12-04 00:10:41 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:10:41 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:10:41 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2019-12-04 00:10:41 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:10:41 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-04 00:10:41 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-12-04 00:11:54 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 11020 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-04 00:11:54 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-04 00:11:54 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-04 00:11:54 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-04 00:11:54 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+[INFO ] 2019-12-04 00:11:54 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-04 00:11:54 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-04 00:11:54 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:11:54 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-04 00:11:54 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-04 00:11:54 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-04 00:11:54 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1461 ms
+[INFO ] 2019-12-04 00:11:54 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-04 00:11:54 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-04 00:11:54 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:11:54 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:11:54 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 2019-12-04 00:11:54 [main] cn.net.immortal.user.Application - Started Application in 7.741 seconds (JVM running for 9.268)
+[INFO ] 2019-12-04 00:11:54 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:11:54 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:11:54 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2019-12-04 00:11:54 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:11:54 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-04 00:11:54 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-12-04 00:13:46 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 7188 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-04 00:13:46 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-04 00:13:46 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-04 00:13:46 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-04 00:13:46 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+[INFO ] 2019-12-04 00:13:46 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-04 00:13:46 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-04 00:13:46 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:13:46 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-04 00:13:46 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-04 00:13:46 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-04 00:13:46 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1735 ms
+[INFO ] 2019-12-04 00:13:46 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-04 00:13:46 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-04 00:13:46 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:13:46 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-04 00:13:46 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 2019-12-04 00:13:46 [main] cn.net.immortal.user.Application - Started Application in 8.123 seconds (JVM running for 10.499)
+[INFO ] 2019-12-04 00:13:46 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:13:46 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-12-04 00:13:46 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2019-12-04 00:13:46 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-04 00:13:46 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-04 00:13:46 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

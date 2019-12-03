@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cn.net.immortal.user.mapper.AccountMapperExt" >
-  <resultMap id="BaseResultMap" type="cn.net.immortal.user.mapper.entity.Account" extends="cn.net.immortal.user.mapper.AccountMapper.BaseResultMap" />
+<mapper namespace="cn.net.immortal.user.dal.mapper.AccountMapperExt" >
+  <resultMap id="BaseResultMap" type="cn.net.immortal.user.dal.entity.Account" extends="cn.net.immortal.user.dal.mapper.AccountMapper.BaseResultMap" >
+  </resultMap>
 
-  <select id="selectByAccount" resultMap="BaseResultMap">
-    select id, password, email
+  <select id="selectByAccount" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select id, account, password, validate
     from account
-    <where>
-     and email = #{email,jdbcType=BIGINT}
-     and validate = 1
-    </where>
+    where account = #{account,jdbcType=BIGINT}
   </select>
 </mapper>
