@@ -1,0 +1,31 @@
+[ERROR] 2019-12-02 23:58:35 [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.net.immortal.user.mapper.AccountMapperExt' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.net.immortal.user.mapper.AccountMapperExt' in your configuration.
+
+[ERROR] 2019-12-02 23:59:23 [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'accountMapper' could not be injected as a 'cn.net.immortal.user.mapper.AccountMapperExt' because it is a JDK dynamic proxy that implements:
+	cn.net.immortal.user.mapper.AccountMapper
+
+
+Action:
+
+Consider injecting the bean as one of its interfaces or forcing the use of CGLib-based proxies by setting proxyTargetClass=true on @EnableAsync and/or @EnableCaching.
+

@@ -1,0 +1,50 @@
+[INFO ] 2019-12-03 00:00:47 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 15156 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-03 00:00:47 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-03 00:00:47 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-03 00:00:47 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-03 00:00:47 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[INFO ] 2019-12-03 00:00:47 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-03 00:00:47 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-03 00:00:47 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-03 00:00:47 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-03 00:00:47 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-03 00:00:47 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-03 00:00:47 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1197 ms
+[INFO ] 2019-12-03 00:00:47 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-03 00:00:47 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-03 00:00:47 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-03 00:00:47 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-03 00:00:47 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 2019-12-03 00:00:47 [main] cn.net.immortal.user.Application - Started Application in 7.273 seconds (JVM running for 8.533)
+[INFO ] 2019-12-03 00:00:47 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-12-03 00:00:47 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-12-03 00:00:47 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2019-12-03 00:00:47 [http-nio-8888-exec-6] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2019-12-03 00:00:47 [http-nio-8888-exec-6] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2019-12-03 00:00:47 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-03 00:00:47 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[INFO ] 2019-12-03 00:00:47 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-12-03 00:05:56 [main] cn.net.immortal.user.Application - Starting Application on DESKTOP-TBCAB0T with PID 14456 (C:\workspace\immortality\immortal-user\target\classes started by lpfnwndproc in C:\workspace\immortality)
+[INFO ] 2019-12-03 00:05:56 [main] cn.net.immortal.user.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-12-03 00:05:56 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-12-03 00:05:56 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-12-03 00:05:56 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[INFO ] 2019-12-03 00:05:56 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-12-03 00:05:56 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-12-03 00:05:56 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-03 00:05:56 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-12-03 00:05:56 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-12-03 00:05:56 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-12-03 00:05:56 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1197 ms
+[INFO ] 2019-12-03 00:05:56 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-12-03 00:05:56 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-12-03 00:05:56 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-12-03 00:05:56 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 2019-12-03 00:05:56 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 2019-12-03 00:05:56 [main] cn.net.immortal.user.Application - Started Application in 7.17 seconds (JVM running for 8.346)
+[INFO ] 2019-12-03 00:05:56 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-12-03 00:05:56 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-12-03 00:05:56 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2019-12-03 00:05:56 [http-nio-8888-exec-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2019-12-03 00:05:56 [http-nio-8888-exec-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2019-12-03 00:05:56 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
