@@ -1,33 +1,29 @@
 package cn.net.immortal.user.service.command.impl;
 
+import cn.net.immortal.common.filter.SSOFilter;
 import cn.net.immortal.user.dal.entity.Account;
-import cn.net.immortal.user.service.command.UserCmdService;
+import cn.net.immortal.user.dal.mapper.AccountMapperExt;
+import cn.net.immortal.user.service.command.AccountCmdService;
 import cn.net.immortal.user.service.command.cmd.LoginCommand;
 import cn.net.immortal.user.service.command.cmd.RegistryCommand;
-import cn.net.immortal.user.dal.mapper.AccountMapperExt;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+import javax.servlet.http.HttpServletRequest;
 import java.util.Objects;
-import java.util.UUID;
 
 @Service
-public class UserCmdServiceImpl implements UserCmdService {
+public class AccountCmdServiceImpl implements AccountCmdService {
 
     @Resource
     AccountMapperExt accountMapperExt;
 
     @Resource
-    RedisTemplate redisTemplate;
+    HttpServletRequest httpServletRequest;
 
-    @Resource
-    HttpServletResponse httpServletResponse;
-
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public void registry(RegistryCommand registryCommand) {
         Account account = new Account();
@@ -38,6 +34,7 @@ public class UserCmdServiceImpl implements UserCmdService {
         accountMapperExt.insert(account);
     }
 
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public Boolean login(LoginCommand loginCommand) {
         Account accountData = accountMapperExt.selectByAccount(loginCommand.getAccount());
@@ -46,9 +43,7 @@ public class UserCmdServiceImpl implements UserCmdService {
                 && loginCommand.getPassword().equals(accountData.getAccount()))){
             return Boolean.FALSE;
         }
-        String token = UUID.randomUUID().toString().replace("-", "");
-        httpServletResponse.setHeader("user-token",token);
-        redisTemplate.opsForValue().set(token, accountData);
+        httpServletRequest.setAttribute(SSOFilter.ACCOUNT_ID,accountData.getId());
         return Boolean.TRUE;
     }
 }

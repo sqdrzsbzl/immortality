@@ -1,33 +1,28 @@
 package cn.net.immortal.user.controller;
 
 import cn.net.immortal.common.response.ResponseWrapper;
-import cn.net.immortal.user.service.command.UserCmdService;
-import cn.net.immortal.user.service.command.cmd.LoginCommand;
-import cn.net.immortal.user.service.command.cmd.RegistryCommand;
+import cn.net.immortal.user.service.command.cmd.AddUserCommand;
+import cn.net.immortal.user.service.command.cmd.UpdateUserCommand;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import javax.annotation.Resource;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
 public class UserController {
 
-    @Resource
-    UserCmdService userCmdService;
-
-    @PostMapping("/register")
-    public ResponseWrapper user(@RequestBody @Validated RegistryCommand registryCommand){
-        userCmdService.registry(registryCommand);
-        return ResponseWrapper.success(Boolean.TRUE);
+    @PostMapping
+    public ResponseWrapper user(@Validated @RequestBody AddUserCommand addUserCommand){
+        return ResponseWrapper.success("");
     }
 
-    @PostMapping("/login")
-    public ResponseWrapper user(@RequestBody @Validated LoginCommand loginCommand){
-        return ResponseWrapper.success(userCmdService.login(loginCommand));
+
+    @PutMapping
+    public ResponseWrapper user(@Validated @RequestBody UpdateUserCommand updateUserCommand){
+        return ResponseWrapper.success("");
     }
 
+    @GetMapping("/{id}")
+    public ResponseWrapper user(@PathVariable String id){
+        return ResponseWrapper.success("");
+    }
 }

@@ -27,4 +27,9 @@ public class ResponseWrapper<T> {
     public T getBody() {
         return body;
     }
+
+    @Override
+    public String toString(){
+        return "{\"flag\":"+this.flag+",\"body\":"+this.body+"}";
+    }
 }

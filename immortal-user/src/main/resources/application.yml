@@ -83,3 +83,7 @@ pagehelper:
   support-methods-arguments: true
   page-size-zero: false
   params: count=countSql
+
+filter:
+  sso-exclude-uri:
+    - ^/account.*

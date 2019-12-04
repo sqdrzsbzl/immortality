@@ -3,3 +3,5 @@
 [WARN ] 2019-12-04 00:04:19 [http-nio-8888-exec-1] o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [230] milliseconds.
 [WARN ] 2019-12-04 00:08:36 [http-nio-8888-exec-1] o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [211] milliseconds.
 [WARN ] 2019-12-04 00:10:41 [http-nio-8888-exec-1] o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [210] milliseconds.
+[WARN ] 2019-12-04 22:30:44 [http-nio-8888-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[WARN ] 2019-12-04 22:36:46 [http-nio-8888-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]

@@ -1,2 +1,3 @@
 [DEBUG] 2019-12-04 00:10:41 [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
 [DEBUG] 2019-12-04 00:10:41 [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[DEBUG] 2019-12-04 22:55:24 [background-preinit] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
